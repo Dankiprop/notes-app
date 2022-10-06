@@ -22,6 +22,13 @@ const App = () => {
     date: "25/04/2022",
 
   },
+  {
+    id: nanoid(),
+    text: "This is my new note",
+    date: "30/04/2022",
+
+  },
+
 
 
 ]);

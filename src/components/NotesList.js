@@ -1,4 +1,6 @@
 import Note from "./Note"
+import AddNote from "./AddNote";
+
 
 
 const NotesList = ({notes}) => {
@@ -8,7 +10,7 @@ const NotesList = ({notes}) => {
              <Note id={note.id} text= {note.text} date={note.date}/>
         
             ))}
-        
+        <AddNote />
        </div>
    )
 
