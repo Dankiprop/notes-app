@@ -62,6 +62,7 @@ min-height: 170px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+white-space: pre-wrap;
 }
 
 .note-footer{
