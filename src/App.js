@@ -52,7 +52,9 @@ const deleteNote = (id) => {
   setNotes(newNotes);
 }
 
-  return <div 
+  return( 
+      <div className={`${darkMode && 'dark-mode'}`}>
+            <div 
                className="container">
               <Header handleToggleDarkMode={setDarkMode}/>
               <Search handleSearchNote= {setSearchText}/>
@@ -62,6 +64,9 @@ const deleteNote = (id) => {
                  handleAddNote={AddNote}
                 handleDeleteNote={deleteNote}/>
            </div>
-}
+      </div>
+      
+  );
+};
 
 export default App;
