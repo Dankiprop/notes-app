@@ -1,4 +1,4 @@
-{ 
+{
   "homepage": "http://Dankiprop.github.io/notesapp",
   "name": "notesapp",
   "version": "0.1.0",
@@ -13,9 +13,9 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": { 
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "Built by https://github.com/Dankiprop",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dankiprop/notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dankiprop/notes-app/issues"
   }
 }
