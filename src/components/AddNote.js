@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const AddNote = ({handleAddNote}) => {
     const [noteText, setNoteText] = useState("");
-    
+    const characterLimit = 200;
 
     const handleChange = (event) =>{
        setNoteText(event.target.value);
@@ -24,7 +24,7 @@ const AddNote = ({handleAddNote}) => {
             onChange={handleChange}
             ></textarea>
             <div className="note-footer">
-                <small>200 eamaining</small>
+                <small>{characterLimit- noteText.length} Reamaining</small>
                 <button className="save" onClick={handleSaveClick}>Save</button>
             </div>
         </div>
