@@ -75,3 +75,12 @@ justify-content: space-between;
 .delete-icon {
 cursor: pointer;
 }
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 5px;
+   
+}

@@ -50,7 +50,7 @@ const deleteNote = (id) => {
 }
 
   return <div className="container">
-    <Search/>
+    <Search />
     <NotesList notes={notes} 
     handleAddNote={AddNote}
     handleDeleteNote={deleteNote}/>
