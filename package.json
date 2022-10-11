@@ -41,16 +41,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "description": "Built by https://github.com/Dankiprop",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dankiprop/notes-app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dankiprop/notes-app/issues"
+  
   }
 }
+ 
